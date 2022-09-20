@@ -1,0 +1,15 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| test               |
++--------------------+
+4 rows in set (0.04 sec)
+
+mysql> use test;
+Database changed
+mysql> show tables;
+Empty set (0.01 sec)
